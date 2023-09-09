@@ -14,7 +14,7 @@ public class Main {
     public static String prefix="-";
 
     public static void main(String[] args) throws LoginException {
-        JDA jda = JDABuilder.createDefault("OTgwMDYwNTgwMTIxNTcxMzI4.G8pOp-.pGuf7pGChUu0k0dGN7sIcrbPtig0nBw4dhEN6o").build();
+        JDA jda = JDABuilder.createDefault("insert Discord API token here").build();
         jda.getPresence().setStatus(OnlineStatus.DO_NOT_DISTURB);
         jda.getPresence().setActivity(Activity.playing("Algorithms"));
         jda.addEventListener(new bot.Commands());
