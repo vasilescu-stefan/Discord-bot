@@ -1,2 +1,2 @@
 # Discord-bot
-Discord bot for searching algoralgorithms on Wikipedia
+Discord bot for searching information about algoralgorithms on Wikipedia
